@@ -468,6 +468,19 @@ window.onclick = function(event) {
 }
 
 
+///add book message modal
+
+var modal_book = document.getElementById("modal_add_book");
+// var btn1 = document.getElementById("myBtn");
+
+
+window.onclick = function(event) {
+    if (event.target == modal_book) {
+        modal_book.style.display = "none";
+    }
+}
+
+
 //sign up
 var form = document.getElementById("myForm");
 // var form_login = document.getElementById("myForm");

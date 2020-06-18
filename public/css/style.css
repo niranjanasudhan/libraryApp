@@ -149,6 +149,9 @@ footer {
     .jumbotron {
         height: 250px;
     }
+    .jumbotron h1 {
+        font-size: 61px;
+    }
 }
 
 form label {
